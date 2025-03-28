@@ -1,8 +1,21 @@
-p {
-    color: red;
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    caption-side: bottom;
 }
 
-h1 {
-    font-size: 100px;
-    text-align:center;
+caption {
+    text-align: right;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+td {text-align: center;}
+
+.coloring {
+    background: yellow;
 }
