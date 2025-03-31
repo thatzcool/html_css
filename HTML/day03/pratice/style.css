@@ -1,0 +1,45 @@
+html,body {
+    height: 100%;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+header {
+    width: 310px;
+    height: 50px;
+    background-color: #611752;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+}
+
+nav{
+    width: 100px;
+    height: 200px;
+    background-color: #c51d1d;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+article {
+
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+footer {
+    width: 310px;
+    height: 50px;
+    background-color: #460816;
+    border-radius: 10px;
+    margin-top: 10px;
+}
