@@ -1,0 +1,39 @@
+<form action="myform.html" method="get">
+    <fieldset>
+      <legend>상품 선택</legend>
+      <p>주문할 상품을 선택해 주세요</p>
+      <label for=""><input type="checkbox" name="s3" value="select_3"> 선물용 3kg</label>
+      <label for=""><input type="checkbox" name="s5" value="select_5"> 선물용 5kg</label>
+      <label for=""><input type="checkbox" name="s10" value="select_10"> 선물용 10kg</label>
+      
+      <p>포장선택</p>
+      <label for=""><input type="radio" name="gift" value="y" checked>선물포장</label>
+      <label for=""><input type="radio" name="gift" value="n">선택하지 않음</label>
+ 
+    </fieldset>
+    <fieldset>
+      <legend>배송 정보</legend>
+      <ul>
+        <li>
+          <label for="user-name">이름 </label>
+          <input type="text" id="user-name">
+        </li>
+        <li>
+          <label for="addr">배송 주소</label>
+          <input type="text" id="addr">
+        </li>
+        <li>
+          <label for="mail">메일 주소</label>
+          <input type="email" id="mail">
+        </li>        
+        <li>
+          <label for="phone">연락처</label>
+          <input type="tel" id="phone">
+        </li>
+      </ul>  
+      <input type="submit" value="신청">
+    </fieldset>      
+  </form>
+</body>
+</html>
+http://127.0.0.1:5500/day02/ex/input/myform.html?gift=y

@@ -1,0 +1,18 @@
+
+body {
+     height: 1000vh;
+}
+div {
+ 
+     width: 200px;
+     height: 200px;
+     background-color: blueviolet;
+
+     position: static;
+
+}
+
+#second {
+     background-color: bisque;
+     position: fixed;
+}

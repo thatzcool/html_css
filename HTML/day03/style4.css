@@ -1,0 +1,17 @@
+
+.up {
+   background-color: indigo;
+   width: 100px;
+   height: 100px;
+        
+}
+
+
+.down {
+
+      background-color: deeppink;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      top:20px;
+}

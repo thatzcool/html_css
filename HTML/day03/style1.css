@@ -1,0 +1,23 @@
+html, body {
+     height: 100%;
+}
+body {
+
+      display: flex;
+      /* 주축정렬 */
+      /* justify-content: space-between;    */
+      flex-direction: column;
+      justify-content: flex-end;
+}
+
+div {
+ 
+     width: 200px;
+     height: 200px;
+     background-color: blueviolet;
+
+}
+
+#second {
+     background-color: bisque;
+}
