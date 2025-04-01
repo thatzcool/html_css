@@ -1,0 +1,66 @@
+1. 클래스명 작성 (BEM) : 부모의 클래스 이름을 이용하여 이름을 짓는 방법 
+
+<form class="search-form">
+  <input class = "search-form__input" />
+  <button class = "search-form_button__submit">Search</button>
+</form>
+
+2. input 태그를 선택할때 방법 
+<form action="find.html" class="login-form">
+    <input  
+        name ="username"
+        type = "text"
+        required 
+        autocomplete = "off"
+        placeholder = "ID"
+    />
+<input  
+        name ="password"
+        type = "password"
+        required 
+        autocomplete = "off"
+        placeholder = "PASSWORD"
+    />
+
+    <input type = "submit" value="로그인"/>
+
+</form>
+
+***선택 
+<style> 
+    .login-form input [type = "sumbit"] {  }
+</style>
+
+***선택하지 않을때
+<style> 
+    .login-form input:not ([type = "sumbit"]) {  }
+</style>
+
+부정가상클래스 => :not(제외하고 싶은 input type 지정)
+not() 안에 선택한 type을 제외하고 모든 input 요소를 선택한다. 
+
+
+
+만들기 순서 
+
+1. 헤더 만들기  (HTML 파일 작성)
+2. 스타일링 
+   - 폰트 지정 (global.css)
+   - 로그인 CSS 파일 
+   - 스타일 초기화 하기   (기본 마진, 패딩, 테두리 초기화)  reset.css
+    
+3. 배경과 폰트 스타일링 
+   - 배경 , 폰트 색상 
+   - 사용자 지정 속성으로 색 정하기 
+   - 타이틀 스타일링     
+
+
+
+
+
+
+
+
+
+
+
