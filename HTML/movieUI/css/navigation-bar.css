@@ -1,0 +1,18 @@
+.navigation-bar {
+
+   background-color: rgba(255,255,255,0.5);
+   width:    8rem;
+   height :  3rem;
+   border-radius: 0 10px 0  0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   /* 화면에 가장 아래쪽에 위치, 아래로 부터 0만큼 떨어져서 위치 */
+   bottom: 0;
+
+}
+
+find-icon-licked {
+    font-weight: 700;
+}

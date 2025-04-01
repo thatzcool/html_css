@@ -49,16 +49,20 @@
     justify-content: center;
   }
 
-  .best-movie__img {
+   /* 이미지 사이즈 조정 */
+  .best-movie__img {   
     width: 22rem;
     height: 12rem;
     border-radius: 25px;
   }
 
   .best-movie__img-container span {
-    position: absolute;
+    /* 부모를 기준으로 해서 움직인다. 부모가 relative, fixed  */
+    /* 해상도의 변화에 따라 재생버튼은 이미지를 기준으로 움직여야 한다.  */
+    position: absolute;      
     background-color: var(--purple);
     border-radius: 50%;
+    /* calc()속성함수 : 화면 크기가 바뀔때 마다 일정한 위치를 유지  2/3 만큼 위치시켜라 */
     left: calc(50% + 5rem);
     font-size: 5rem;
     bottom: 3.2rem;
@@ -73,4 +77,26 @@
     color: var(--purple);
     font-size: 40px;
     font-weight: 600;
+  }
+
+  /* 전체를 감싸는 상자의 간격 조정 */
+  .movie-recommendation {
+             margin: 25px 0;
+             padding: 0 25px;
+  }
+  .movie-recommendation__imges {
+    margin-top: 20px;
+    /* ul 스타일을 제거 */
+    list-style: none;    
+    display: flex;
+    overflow: scroll;
+  }
+
+  .movie-recommendation__imges li {
+     margin-left: 5px;
+  }
+
+  .movie-recommendation__imges img {
+      width: 150px;
+      border-radius: 20px;
   }

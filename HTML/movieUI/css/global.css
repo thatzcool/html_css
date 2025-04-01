@@ -4,7 +4,7 @@
 
 @import "./reset.css";
 @import "./variable.css";
-@import "./nevigation-bar.css";
+@import "./navigation-bar.css";
 @import "./media-query.css";
 
 * {
@@ -35,7 +35,7 @@ input {
       justify-content: center;
       align-items: center;
 }
-
+/* 나는 부모야 */
 .position-relative {
     position: relative;
 }
