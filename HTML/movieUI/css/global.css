@@ -28,3 +28,14 @@ input {
   outline: none;
   appearance: none;
 }
+
+/* find.html의 검색바 스타일링 */
+.display-flex-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.position-relative {
+    position: relative;
+}
