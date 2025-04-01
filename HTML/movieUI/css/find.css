@@ -89,7 +89,7 @@
     /* ul 스타일을 제거 */
     list-style: none;    
     display: flex;
-    overflow: scroll;
+    overflow: auto;
   }
 
   .movie-recommendation__imges li {

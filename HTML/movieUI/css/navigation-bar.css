@@ -13,6 +13,11 @@
 
 }
 
-find-icon-licked {
+.navigation-bar span {
+    color: black;
+    font-size: 1.5rem;
+  }
+
+.find-icon-clicked {
     font-weight: 700;
 }

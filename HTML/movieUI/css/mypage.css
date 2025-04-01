@@ -1,0 +1,121 @@
+@import "./global.css";
+
+/* 1. 프로필 영역을 조정  */
+.user-componet {
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+/* 2. 프로필 이미지 크기 와 위치 
+   3. 프로필 이미지와 텍스트를 스타일링
+   4. 새 프로필의 추가 버튼의 위치와 스타일링
+   5. 전체를 감싸는 태그의 위치를 가운데로 조정
+*/
+
+.user-componet__profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.user-componet__id {
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.add-profile-btn {
+
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+}
+
+.continue-watching__images img {
+     width: 200px;
+     height: 120px;
+     border-radius: 15px;
+     /* 가로세로 비율을 유지하면서 지정한 크기에 맞춤 */
+     object-fit: cover;
+}
+/* 사진 여백을 조정 */
+.continue-watching {
+    margin-bottom: 25px;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+.continue-watching__images {
+    list-style: none;
+    display: flex;
+    overflow: auto;
+}
+
+.continue-watching__card {
+
+    background-color: var(--darkpurple);
+    padding: 5px;
+    border-radius: 15px;
+}
+.continue-watching__header {
+    margin-bottom: 15px;
+}
+
+.continue-watching__images li {
+     margin-left: 5px;
+}
+.continue-watching__title {
+    display: block;
+    margin: 2px 0;
+}
+
+
+.wishlist__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+  }
+  .wishlist__header {
+    border-top: 1px solid var(--border-color);
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+  .wishlist-item {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--darkpurple);
+    padding: 7px;
+    border-radius: 15px;
+  }
+  .wishlist-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .wishlist-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .wishlist__title {
+    font-size: 1.2rem;
+  }
+  .wishlist__subtitle {
+    font-size: 0.9rem;
+  }
+  .wishlist-play-btn span {
+    background-color: var(--purple);
+    border-radius: 50%;
+    opacity: 0.9;
+    font-size: 3rem;
+  }
+  .wishlist {
+    padding: 0 20px 10px 20px;
+  }
+  
